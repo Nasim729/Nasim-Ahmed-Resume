@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My portfolio</title>
     </head>
     <style>
         @page {
-            size: A4; /* or size: 8.5in 11in; for custom size */
-            margin: 1in; /* Set margins for the page */
+            size: A4;
+            margin: 1in;
         }
 
         @media print {
-            body {
-                font-size: 12pt; /* Example of setting font size for print */
+            html, body {
+                width: 210mm;
+                height: 297mm;
                 margin: 0;
             }
         }
+       
     </style>
     <Style>
         body{font-family:Georgia; margin: 20px; text-align:justify;}
